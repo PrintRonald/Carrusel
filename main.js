@@ -2,14 +2,14 @@ function changeView(type) {
   const path = window.location.pathname;
   console.log(path);
   if (type === "/home") {
-    if (path === '/index.html') {
+    if (path === '/carrusel/index.html') {
       document.body.style.backgroundColor = "red";
       return false;
     } else {
       window.location.href = "/index.html";
     }
   } else if (type === "/register") {
-    if (path === '/register.html') {
+    if (path === '/carrusel/register.html') {
       document.body.style.backgroundColor = "green";
       return false;
     } else {
