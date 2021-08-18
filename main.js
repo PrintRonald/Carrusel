@@ -8,7 +8,7 @@ function changeView(type) {
     } else {
       window.location.href = "index.html";
     }
-  } else if (type === "/register") {
+  } else if (type === "register") {
     if (path === '/carrusel/register.html') {
       document.body.style.backgroundColor = "green";
       return false;
