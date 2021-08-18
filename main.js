@@ -23,7 +23,7 @@ function changeView(type) {
 document.addEventListener('DOMContentLoaded', () => {
   const elementosCarousel = document.querySelectorAll('.carousel');
   M.Carousel.init(elementosCarousel, {
-      duration: 150,
+      duration: 100,
       dist:-80,
       shift: 5,
       padding: 5,
